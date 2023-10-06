@@ -3,7 +3,7 @@
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>com.yahorbarkouski.recent</id>
 
-    <name>Favourite</name>
+    <name>Recent Projects Grouping</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="yahor.barkouski@gmail.com" url="https://www.yahorbarkouski.com">Yahor Barkouski</vendor>
