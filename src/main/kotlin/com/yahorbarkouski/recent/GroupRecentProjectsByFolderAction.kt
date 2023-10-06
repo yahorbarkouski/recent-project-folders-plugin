@@ -21,8 +21,7 @@ class GroupRecentProjectsByFolderAction : AnAction(), DumbAware {
 
         val response = Messages.showYesNoDialog(
             e.project,
-            "This action is going to move $movingProjectsCount projects " +
-                    "to new recent project groups. Do you want to proceed?",
+            "This action is going to move all your projects to $movingProjectsCount newly created folders. Do you want to proceed?",
             "Confirmation",
             Messages.getWarningIcon()
         )
@@ -31,7 +30,6 @@ class GroupRecentProjectsByFolderAction : AnAction(), DumbAware {
             createOrUpdateGroups(recentProjectsManager, recentProjectFolders)
         }
     }
-
 
     override fun update(e: AnActionEvent) {
         e.presentation.isEnabled = calculateMovingProjectsCount(
