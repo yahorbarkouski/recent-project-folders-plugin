@@ -24,7 +24,7 @@
                 class="com.yahorbarkouski.recent.GroupRecentProjectsByFolderAction"
                 text="Group Projects by Folders"
         >
-            <add-to-group group-id="WelcomeScreenRecentProjectActionGroup" anchor="last"/>
+            <add-to-group group-id="WelcomeScreen.Options" anchor="last"/>
         </action>
     </actions>
 </idea-plugin>

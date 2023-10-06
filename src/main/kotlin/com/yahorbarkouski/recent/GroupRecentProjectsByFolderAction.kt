@@ -29,7 +29,6 @@ class GroupRecentProjectsByFolderAction : AnAction(), DumbAware {
 
         if (response == Messages.YES) {
             createOrUpdateGroups(recentProjectsManager, recentProjectFolders)
-            WelcomeFrame.resetInstance()
         }
     }
 
